@@ -198,3 +198,11 @@ svg * {
   font-style: normal;
   font-display: swap;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
