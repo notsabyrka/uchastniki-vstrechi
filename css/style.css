@@ -206,3 +206,27 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #fff;
 }
+
+.members {
+  max-width: 640px;
+  padding: 24px;
+}
+
+.members__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.members__item {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 10px 16px 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 100px;
+}
+
+.members__image {
+  border-radius: 50%;
+}
